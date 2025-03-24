@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CureM4 - Antivirus Mask Store</title>
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="mask-icon">
+                <img src="./assets/img/logo.png" alt="CureM4 Logo">
+            </div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header container-fluid">
+        <div class="row">
+            <div class="header-top col-12">
+                <h3 class="heading-header">Due to the COVID 19 epidemic, orders may be processed with a slight delay</h3>
+            </div>
+            <div class="header-bootom col-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-6 logo-img">
+                            <a href="#" class="logo-link">
+                                <img src="./assets/img/logo.png" alt="logo">
+                                <h3 class="logo-tiltle">CureM4</h3>
+                            </a>
+                        </div>
+                        <div class="col-md-9 col-6 menu-content">
+                            <button class="mobile-menu-toggle" id="menuToggle">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <div class="menu-wrapper" id="menuWrapper">
+                                <div class="menu-content-left">
+                                    <nav class="menu">
+                                        <a href="#" class="active">Home</a>
+                                        <a href="#">Shop</a>
+                                        <a href="#">Products</a>
+                                        <a href="#">About</a>
+                                        <a href="#">Contacts</a>
+                                    </nav>
+                                    <div class="menu-contact">
+                                        <span><i class="fa-solid fa-phone-volume"></i> 989-879-0847</span>
+                                    </div>
+                                </div>
+                                <div class="menu-content-right">
+                                    <div class="icon-contact">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="section-one container-fluid">
+        <div class="container">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6 img-container">
+                    <div class="price-anti">only <br>$25</div>
+                    <img class="section-img" src="./assets/img/product1.jpg" alt="Antivirus Mask">
+                </div>
+                <div class="col-lg-6 hero-content">
+                    <h1 class="display-5 text-body-emphasis lh-1 mb-3 title">Antivirus <br>Mask Store</h1>
+                    <p class="lead">The easiest way to protect yourself</p>
+                    <div class="icon-anti">
+                        <div class="icon-anti-left">
+                            <i class="fa-solid fa-square-check"></i><span>Anti-Bacterial</span>
+                        </div>
+                        <div class="icon-anti-right"><i class="fa-solid fa-earth-europe"></i> <span>Anti-Virus</span>
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-shop">Shop now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Cards Section -->
+    <section class="section-two">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="container-card">
+                        <img class="img-card" src="./assets/img/mbr.jpeg" alt="Antivirus Mask">
+                        <div class="content-card">
+                            <div class="inner-content-card">
+                                <button class="btn-news">News</button>
+                                <h3 class="card-title">Antivirus <br> Mask</h3>
+                            </div>
+                            <button class="btn-section2">More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="container-card">
+                        <img class="img-card" src="./assets/img/product1.jpg" alt="Basic Mask">
+                        <div class="content-card">
+                            <div class="inner-content-card">
+                                <h3 class="card-title card-title-2">Basic <br> Mask</h3>
+                                <p class="card-price">-30%</p>
+                            </div>
+                            <button class="btn-section2">Shop now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="container-card">
+                        <img class="img-card" src="./assets/img/mbr-3.jpg" alt="Medical Mask">
+                        <div class="content-card">
+                            <div class="inner-content-card">
+                                <h3 class="card-title">Medical Mask</h3>
+                                <p class="card-price">$15.99</p>
+                                <p class="card-price-2"><del>$29.99</del></p>
+                            </div>
+                            <button class="btn-section2">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section-three">
+        <div class="container">
+            <h1 class="text-center" data-aos="fade-up">Effective and reliable <br>protection for your</h1>
+            <p class="col-lg-8 mx-auto lead text-center cc" data-aos="fade-up" data-aos-delay="200">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div class="row g-4 py-5 row-cols-1 row-cols-md-3 feutured">
+                <div class="feature col" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-earth-europe"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Anti-Virus</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                </div>
+                <div class="feature col" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-wand-magic"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Anti-Bacterial</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                </div>
+                <div class="feature col" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Safety</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-four">
+        <div class="container">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-md-6 col-12" data-aos="fade-left">
+                    <img src="./assets/img/features1.jpg" class="img-fluid rounded shadow" alt="Effective Protection">
+                </div>
+                <div class="col-md-6 col-12" data-aos="fade-right">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 title-desr">Effective & <br>reliable
+                        <br>protection
+                    </h1>
+                    <p class="lead lead-derc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn px-4">About</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secure Delivery Banner -->
+    <section class="section-5">
+        <div class="container">
+            <div class="banner">
+                <img src="./assets/img/features2.jpg" alt="Secure delivery">
+                <div class="content">
+                    <p><i class="fa-solid fa-bolt"></i>100% Secure delivery without contacting the courier</p>
+                    <button>More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="section-6">
+        <div class="container">
+            <h3 class="heading-title text-center" data-aos="fade-up">Featured products</h3>
+            <div class="row products-row">
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="Featured_products">
+                        <div class="product-img-wrapper">
+                            <img src="./assets/img/features2.jpg" alt="Basic Mask">
+                            <div class="product-actions">
+                                <button class="action-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                                <button class="action-btn"><i class="fa-solid fa-heart"></i></button>
+                                <button class="action-btn"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="featured-products-content">
+                            <div class="heading-products">Basic Mask</div>
+                            <div class="price-products">$1.99</div>
+                            <div class="icon-products">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="Featured_products">
+                        <div class="product-img-wrapper">
+                            <img src="./assets/img/features1.jpg" alt="Basic Mask">
+                            <div class="product-actions">
+                                <button class="action-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                                <button class="action-btn"><i class="fa-solid fa-heart"></i></button>
+                                <button class="action-btn"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="featured-products-content">
+                            <div class="heading-products">Basic Mask</div>
+                            <div class="price-products">$1.99</div>
+                            <div class="icon-products">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="300">
+                    <div class="Featured_products">
+                        <div class="product-img-wrapper">
+                            <img src="./assets/img/mbr-2.jpg" alt="Basic Mask">
+                            <div class="product-actions">
+                                <button class="action-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                                <button class="action-btn"><i class="fa-solid fa-heart"></i></button>
+                                <button class="action-btn"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="featured-products-content">
+                            <div class="heading-products">Basic Mask</div>
+                            <div class="price-products">$1.99</div>
+                            <div class="icon-products">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="400">
+                    <div class="Featured_products">
+                        <div class="product-img-wrapper">
+                            <img src="./assets/img/mbr.jpeg" alt="Basic Mask">
+                            <div class="product-actions">
+                                <button class="action-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                                <button class="action-btn"><i class="fa-solid fa-heart"></i></button>
+                                <button class="action-btn"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="featured-products-content">
+                            <div class="heading-products">Basic Mask</div>
+                            <div class="price-products">$1.99</div>
+                            <div class="icon-products">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="500">
+                    <div class="Featured_products">
+                        <div class="product-img-wrapper">
+                            <img src="./assets/img/mbr-3.jpg" alt="Basic Mask">
+                            <div class="product-actions">
+                                <button class="action-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                                <button class="action-btn"><i class="fa-solid fa-heart"></i></button>
+                                <button class="action-btn"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="featured-products-content">
+                            <div class="heading-products">Basic Mask</div>
+                            <div class="price-products">$1.99</div>
+                            <div class="icon-products">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                    <div class="Featured_products">
+                        <div class="product-img-wrapper">
+                            <img src="./assets/img/product1.jpg" alt="Basic Mask">
+                            <div class="product-actions">
+                                <button class="action-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                                <button class="action-btn"><i class="fa-solid fa-heart"></i></button>
+                                <button class="action-btn"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="featured-products-content">
+                            <div class="heading-products">Basic Mask</div>
+                            <div class="price-products">$1.99</div>
+                            <div class="icon-products">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section-7">
+        <div class="container text-center">
+            <form class="newsletter-form" data-aos="fade-up">
+                <h4 class="form-heading">Join our newsletter and<br>get $20 discount.</h4>
+                <div class="form-text">
+                    <input class="input-form" type="email" placeholder="Enter your email address" required>
+                    <button class="btn" type="submit">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="section video-section">
+        <div class="container">
+            <h2 class="text-center" data-aos="fade-up">Watch Video</h2>
+            <div class="iframe-container" data-aos="zoom-in">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/5MsWz9ynN-8?si=yJhespf5iHJmBDFq"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section-8">
+        <div class="container">
+            <h4 class="text-center" data-aos="fade-up">Latest reviews</h4>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="Latest-reviews-content">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis diam at libero aliquam,
+                            sed vestibulum elit feugiat.</p>
+                        <div class="reviewer-info">
+                            <h5>John Smith</h5>
+                            <div class="icont-prevew">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="Latest-reviews-content">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis diam at libero aliquam,
+                            sed vestibulum elit feugiat.</p>
+                        <div class="reviewer-info">
+                            <h5>Jane Doe</h5>
+                            <div class="icont-prevew">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300">
+                    <div class="Latest-reviews-content">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis diam at libero aliquam,
+                            sed vestibulum elit feugiat.</p>
+                        <div class="reviewer-info">
+                            <h5>Robert Johnson</h5>
+                            <div class="icont-prevew">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
+                    <div class="Latest-reviews-content">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis diam at libero aliquam,
+                            sed vestibulum elit feugiat.</p>
+                        <div class="reviewer-info">
+                            <h5>Emily Wilson</h5>
+                            <div class="icont-prevew">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-9">
+        <div class="container">
+            <div class="row align-items-center g-5 py-5">
+                <div class="col-lg-6 col-12 order-lg-2" data-aos="fade-left">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31349.074620532283!2d106.70320960910256!3d10.839270813491956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175262ab32742e9%3A0xb3805d4c6e1216a6!2zSGnhu4dwIELDrG5oIENow6FuaCwgVGjhu6cgxJDhu6ljLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1742825619421!5m2!1svi!2s"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 iframe-left" data-aos="fade-right">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">How can we <br>help you?</h1>
+                    <p class="lead">We are at your disposal 7 days a week!</p>
+                    <hr>
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">989-879-0847</h1>
+                    <p class="lead">Monday – Friday: 9:00-20:00 <br>Saturday: 11:00 – 15:00</p>
+                    <div class="email-container">
+                        <input type="text" placeholder="contact@yoursite.com" class="input-form-2">
+                    </div>
+                    <hr>
+                    <div class="icon-contact">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 footer">
+        <div class="container">
+            <div class="row row-footer">
+                <div class="col-6 col-md-3 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <h5>Company</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About us</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Delivery</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-3">
+                    <h5>Support</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Help Center</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <h5>Follow Us</h5>
+                    <div class="social-footer">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row footer-bottom">
+                <div class="col-md-6 col-12 copyright">
+                    <p>Copyright 2025 Mobirise. All Rights Reserved by Thợ code VĂn KỊt</p>
+                </div>
+                <div class="col-md-6 col-12 footer-logo">
+                    <img src="./assets/img/z6438695182427_10ad4c9dc6557b10efbcea5f2efbe21f.jpg" alt="Footer Logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="./assets/Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Preloader
+        window.addEventListener('load', function() {
+            const preloader = document.querySelector('.preloader');
+            preloader.classList.add('preloader-hide');
+            setTimeout(() => {
+                preloader.style.display = 'none';
+            }, 1000);
+        });
+
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const menuWrapper = document.getElementById('menuWrapper');
+        
+        if (menuToggle) {
+            menuToggle.addEventListener('click', function() {
+                menuWrapper.classList.toggle('menu-open');
+                this.classList.toggle('active');
+            });
+        }
+
+        // Back to Top Button
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Scroll Animation
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('[data-aos]');
+            
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (elementPosition < windowHeight * 0.85) {
+                    element.classList.add('aos-animate');
+                }
+            });
+        };
+        
+        window.addEventListener('scroll', animateOnScroll);
+        window.addEventListener('load', animateOnScroll);
+    </script>
+</body>
+
+</html>
